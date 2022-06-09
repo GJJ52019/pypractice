@@ -17,11 +17,15 @@ while isPlay == "y":
     while guess != userSecret or turn == 0:
         guess = input("You have " + str(turn) + " turns left enter an guess: ")
         turn -= 1
+        guessCount +=1
         if turn <= 0:
             break
    
     if turn == 0 and guess != userSecret:
         print("\nOut of guesses would you like to play again\n")
-        isPlay = input('Press "Y" for yes or "N" for no: ').lower()
+        isPlay = input('Press "y" for yes or "n" for no: ').lower()
+        while isPlay != "y" and isPlay != "n":
+           isPlay = input("Please only input 'y' or 'n': ")
+           
     else:
-        print("Nice guess!! You win!!")
+        print("Nice guess!! You win!! You guessed "+ guessCount + " times")
