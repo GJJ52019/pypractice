@@ -7,4 +7,5 @@ from alienClass import Alien
 #creates a new object within the class must have all the variables
 alien1 = Alien("LionDuck", 6 , "omnivore", True)
 
+#use .classfeature to access the value stored
 print(alien1.is_a_threat)
