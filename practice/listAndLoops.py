@@ -22,3 +22,21 @@ print(numbers[2][1])
 for row in numbers:
     for col in row:
         print(col)
+
+#more list examples
+letterSoup = ['a','a','e','d','d','c','x','s']
+print(letterSoup)
+letterSoup.sort() #sorts string list in alphabetical order
+print(letterSoup)
+letterSoup.reverse() # reverses list
+print(letterSoup)
+
+newLetterSoup = letterSoup[::-1] #when ussing the [::-1] it creates a new list and does not update the old one
+print(newLetterSoup)
+print(letterSoup)
+
+
+addToSent = " "
+
+sentence = addToSent.join(["hey", "my","name","isn't","Jack","its","John"])
+print(sentence)
