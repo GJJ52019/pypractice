@@ -8,3 +8,5 @@ def exponential(base, power):
     return results
 
 print(exponential(3,4))
+
+#math functions can be found at https://www.programiz.com/python-programming/modules/math
