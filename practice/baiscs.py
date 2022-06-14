@@ -7,11 +7,13 @@ print(string[::-1])
 
 #list unpacking
 
-q,w,e,r,t,y = [1,2,3,'apple',True,3.4]
+q,w,e,r,t,y, *extra, d = [1,2,3,'apple',True,3.4, 2,34,5,5.6,'apple2', 4]
 print(q)
 print(r)
 print(t)
 print(type(y))
+print(extra)
+print(d)
 
 
 #math functions can be found at https://www.programiz.com/python-programming/modules/math
