@@ -5,7 +5,13 @@ string = "0123456789"
 
 print(string[::-1])
 
+#list unpacking
 
+q,w,e,r,t,y = [1,2,3,'apple',True,3.4]
+print(q)
+print(r)
+print(t)
+print(type(y))
 
 
 #math functions can be found at https://www.programiz.com/python-programming/modules/math
